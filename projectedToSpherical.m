@@ -10,7 +10,7 @@ function [theta,phi,convertedData] = projectedToSpherical(theta_x, theta_y,data,
 %%                           z-axis, and 90 in xy plane) NOTE: this may vary from other coordinate
 %%                           definitions
 %%          data -   the data that corresponds the projected angles theta_x and theta_y
-%%
+%%          degType -  0 for radians, 1 for degrees  will convert back to whatever form input
 %% OUTPUTS: theta - same definition as above, measured wrt z-axis
 %%          phi -   projected angle measured in the xy plane with respect
 %%                          to positive x-axis
