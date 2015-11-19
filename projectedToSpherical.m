@@ -1,8 +1,8 @@
 function [theta,phi,convertedData] = projectedToSpherical(theta_x, theta_y,data, degType);
 %%%%%%
-%%This function converts data reported projected angles to spherical
+%%This function converts data reported in projected angles to spherical
 %%coordinates
-%%data is accepted as a 2-D matrix and returns 3 1-D arrays with
+%%data is accepted as a 2-D matrix and returns 3, 1-D arrays with
 %%corresponding theta, phi, and rho(data) 
 %%
 %% INPUTS: theta_x, theta_y - the projected angles are assumed to be the projection in the xz and yz
